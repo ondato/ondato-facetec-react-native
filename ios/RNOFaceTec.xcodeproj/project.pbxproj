@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03062E3F290EB56F00353EE6 /* vocal_guidance_off.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 035D612C290855340084E52F /* vocal_guidance_off.mp3 */; };
+		03062E40290EB56F00353EE6 /* please_frame_your_face_sound_file.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 035D612D290855340084E52F /* please_frame_your_face_sound_file.mp3 */; };
+		03062E41290EB56F00353EE6 /* facescan_successful_sound_file.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 035D612E290855340084E52F /* facescan_successful_sound_file.mp3 */; };
+		03062E42290EB56F00353EE6 /* please_move_closer_sound_file.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 035D612F290855340084E52F /* please_move_closer_sound_file.mp3 */; };
+		03062E43290EB56F00353EE6 /* please_retry_sound_file.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 035D6130290855340084E52F /* please_retry_sound_file.mp3 */; };
+		03062E44290EB56F00353EE6 /* please_press_button_sound_file.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 035D6131290855340084E52F /* please_press_button_sound_file.mp3 */; };
+		03062E45290EB56F00353EE6 /* uploading_sound_file.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 035D6132290855340084E52F /* uploading_sound_file.mp3 */; };
+		03062E46290EB56F00353EE6 /* vocal_guidance_on.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 035D6133290855340084E52F /* vocal_guidance_on.mp3 */; };
+		03062E47290EB57300353EE6 /* Assets.xcassets in CopyFiles */ = {isa = PBXBuildFile; fileRef = 035D611D290855340084E52F /* Assets.xcassets */; };
+		03062E51290F0F6B00353EE6 /* RNOFaceTecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03062E50290F0F6B00353EE6 /* RNOFaceTecViewController.swift */; };
+		035D6102290845740084E52F /* RNOFaceTecViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 035D60FF290845740084E52F /* RNOFaceTecViewManager.m */; };
+		035D6103290845740084E52F /* RNOFaceTecViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035D6100290845740084E52F /* RNOFaceTecViewManager.swift */; };
+		035D613C290855340084E52F /* RNOUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035D6107290855330084E52F /* RNOUtilities.swift */; };
+		035D6159290855340084E52F /* RNOConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035D6134290855340084E52F /* RNOConfig.swift */; };
+		035D615C290855340084E52F /* RNOProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035D6138290855340084E52F /* RNOProcessor.swift */; };
+		0366CF2129114DDB00A84439 /* RNOFaceTecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0366CF2029114DDB00A84439 /* RNOFaceTecView.swift */; };
+		0366CF2329114EB300A84439 /* RNOMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0366CF2229114EB300A84439 /* RNOMode.swift */; };
+		0366CF252911B5FF00A84439 /* RNOStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0366CF242911B5FF00A84439 /* RNOStatus.swift */; };
+		0398E193292D04D200DB30D8 /* FaceTecSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0398E192292D04D200DB30D8 /* FaceTecSDK.xcframework */; };
+		03BE14AA2912769E00D62707 /* RNOVocalGuidanceMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BE14A92912769E00D62707 /* RNOVocalGuidanceMode.swift */; };
+		03BF31C1292FB893004A0116 /* RNOCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF31C0292FB893004A0116 /* RNOCustomization.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03062E3E290EB55900353EE6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				03062E3F290EB56F00353EE6 /* vocal_guidance_off.mp3 in CopyFiles */,
+				03062E40290EB56F00353EE6 /* please_frame_your_face_sound_file.mp3 in CopyFiles */,
+				03062E41290EB56F00353EE6 /* facescan_successful_sound_file.mp3 in CopyFiles */,
+				03062E47290EB57300353EE6 /* Assets.xcassets in CopyFiles */,
+				03062E42290EB56F00353EE6 /* please_move_closer_sound_file.mp3 in CopyFiles */,
+				03062E43290EB56F00353EE6 /* please_retry_sound_file.mp3 in CopyFiles */,
+				03062E44290EB56F00353EE6 /* please_press_button_sound_file.mp3 in CopyFiles */,
+				03062E45290EB56F00353EE6 /* uploading_sound_file.mp3 in CopyFiles */,
+				03062E46290EB56F00353EE6 /* vocal_guidance_on.mp3 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03062E50290F0F6B00353EE6 /* RNOFaceTecViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNOFaceTecViewController.swift; sourceTree = "<group>"; };
+		035D60FF290845740084E52F /* RNOFaceTecViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNOFaceTecViewManager.m; sourceTree = "<group>"; };
+		035D6100290845740084E52F /* RNOFaceTecViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNOFaceTecViewManager.swift; sourceTree = "<group>"; };
+		035D6101290845740084E52F /* RNOFaceTec-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNOFaceTec-Bridging-Header.h"; sourceTree = "<group>"; };
+		035D6107290855330084E52F /* RNOUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNOUtilities.swift; sourceTree = "<group>"; };
+		035D611D290855340084E52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		035D612A290855340084E52F /* FaceTecSDK-Sample-App.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "FaceTecSDK-Sample-App.entitlements"; sourceTree = "<group>"; };
+		035D612C290855340084E52F /* vocal_guidance_off.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vocal_guidance_off.mp3; sourceTree = "<group>"; };
+		035D612D290855340084E52F /* please_frame_your_face_sound_file.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = please_frame_your_face_sound_file.mp3; sourceTree = "<group>"; };
+		035D612E290855340084E52F /* facescan_successful_sound_file.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = facescan_successful_sound_file.mp3; sourceTree = "<group>"; };
+		035D612F290855340084E52F /* please_move_closer_sound_file.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = please_move_closer_sound_file.mp3; sourceTree = "<group>"; };
+		035D6130290855340084E52F /* please_retry_sound_file.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = please_retry_sound_file.mp3; sourceTree = "<group>"; };
+		035D6131290855340084E52F /* please_press_button_sound_file.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = please_press_button_sound_file.mp3; sourceTree = "<group>"; };
+		035D6132290855340084E52F /* uploading_sound_file.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uploading_sound_file.mp3; sourceTree = "<group>"; };
+		035D6133290855340084E52F /* vocal_guidance_on.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vocal_guidance_on.mp3; sourceTree = "<group>"; };
+		035D6134290855340084E52F /* RNOConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNOConfig.swift; sourceTree = "<group>"; };
+		035D6138290855340084E52F /* RNOProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNOProcessor.swift; sourceTree = "<group>"; };
+		035D6164290898E30084E52F /* react-native-facetec.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "react-native-facetec.podspec"; path = "../react-native-facetec.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0366CF2029114DDB00A84439 /* RNOFaceTecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNOFaceTecView.swift; sourceTree = "<group>"; };
+		0366CF2229114EB300A84439 /* RNOMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNOMode.swift; sourceTree = "<group>"; };
+		0366CF242911B5FF00A84439 /* RNOStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNOStatus.swift; sourceTree = "<group>"; };
+		0398E192292D04D200DB30D8 /* FaceTecSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FaceTecSDK.xcframework; sourceTree = "<group>"; };
+		03BE14A92912769E00D62707 /* RNOVocalGuidanceMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNOVocalGuidanceMode.swift; sourceTree = "<group>"; };
+		03BF31C0292FB893004A0116 /* RNOCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNOCustomization.swift; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libRNOFaceTec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNOFaceTec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0398E193292D04D200DB30D8 /* FaceTecSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035D60FE290845740084E52F /* RNOFaceTec */ = {
+			isa = PBXGroup;
+			children = (
+				035D60FF290845740084E52F /* RNOFaceTecViewManager.m */,
+				035D612A290855340084E52F /* FaceTecSDK-Sample-App.entitlements */,
+				035D6134290855340084E52F /* RNOConfig.swift */,
+				035D6107290855330084E52F /* RNOUtilities.swift */,
+				035D6138290855340084E52F /* RNOProcessor.swift */,
+				03062E50290F0F6B00353EE6 /* RNOFaceTecViewController.swift */,
+				035D6100290845740084E52F /* RNOFaceTecViewManager.swift */,
+				035D6101290845740084E52F /* RNOFaceTec-Bridging-Header.h */,
+				0366CF2029114DDB00A84439 /* RNOFaceTecView.swift */,
+				0366CF2229114EB300A84439 /* RNOMode.swift */,
+				0366CF242911B5FF00A84439 /* RNOStatus.swift */,
+				03BE14A92912769E00D62707 /* RNOVocalGuidanceMode.swift */,
+				03BF31C0292FB893004A0116 /* RNOCustomization.swift */,
+			);
+			path = RNOFaceTec;
+			sourceTree = "<group>";
+		};
+		035D6108290855340084E52F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				035D612B290855340084E52F /* SoundFiles */,
+				035D611D290855340084E52F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		035D612B290855340084E52F /* SoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				035D612C290855340084E52F /* vocal_guidance_off.mp3 */,
+				035D612D290855340084E52F /* please_frame_your_face_sound_file.mp3 */,
+				035D612E290855340084E52F /* facescan_successful_sound_file.mp3 */,
+				035D612F290855340084E52F /* please_move_closer_sound_file.mp3 */,
+				035D6130290855340084E52F /* please_retry_sound_file.mp3 */,
+				035D6131290855340084E52F /* please_press_button_sound_file.mp3 */,
+				035D6132290855340084E52F /* uploading_sound_file.mp3 */,
+				035D6133290855340084E52F /* vocal_guidance_on.mp3 */,
+			);
+			path = SoundFiles;
+			sourceTree = "<group>";
+		};
+		03815D93290286BC00E92E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0398E192292D04D200DB30D8 /* FaceTecSDK.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNOFaceTec.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				035D6164290898E30084E52F /* react-native-facetec.podspec */,
+				035D6108290855340084E52F /* Resources */,
+				035D60FE290845740084E52F /* RNOFaceTec */,
+				03815D93290286BC00E92E4F /* Frameworks */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNOFaceTec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNOFaceTec" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				03062E3E290EB55900353EE6 /* CopyFiles */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNOFaceTec;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNOFaceTec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNOFaceTec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNOFaceTec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0366CF2129114DDB00A84439 /* RNOFaceTecView.swift in Sources */,
+				035D6103290845740084E52F /* RNOFaceTecViewManager.swift in Sources */,
+				03BF31C1292FB893004A0116 /* RNOCustomization.swift in Sources */,
+				035D6102290845740084E52F /* RNOFaceTecViewManager.m in Sources */,
+				035D615C290855340084E52F /* RNOProcessor.swift in Sources */,
+				035D613C290855340084E52F /* RNOUtilities.swift in Sources */,
+				0366CF2329114EB300A84439 /* RNOMode.swift in Sources */,
+				03062E51290F0F6B00353EE6 /* RNOFaceTecViewController.swift in Sources */,
+				035D6159290855340084E52F /* RNOConfig.swift in Sources */,
+				0366CF252911B5FF00A84439 /* RNOStatus.swift in Sources */,
+				03BE14AA2912769E00D62707 /* RNOVocalGuidanceMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNOFaceTec;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNOFaceTec/RNOFacetec-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNOFaceTec;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNOFaceTec/RNOFacetec-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNOFaceTec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNOFaceTec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
